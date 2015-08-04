@@ -1,16 +1,8 @@
 class People
+  attr_accessor :name, :age
   def initialize(name, age)
     @name = name
     @age = age
-  end
-  def set_name=(name)
-    @name = name
-  end
-  def get_name
-    @name
-  end
-  def get_age
-    @age
   end
 end
 
